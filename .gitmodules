@@ -1,0 +1,15 @@
+[submodule "b-rainbow-mind-machine"]
+	path = b-rainbow-mind-machine
+	url = https://git.charlesreid1.com/bots/b-rainbow-mind-machine.git
+[submodule "b-tripos"]
+	path = b-tripos
+	url = https://git.charlesreid1.com/bots/b-tripos.git
+[submodule "b-milton"]
+	path = b-milton
+	url = https://git.charlesreid1.com/bots/b-milton.git
+[submodule "b-ginsberg"]
+	path = b-ginsberg
+	url = https://git.charlesreid1.com/bots/b-ginsberg.git
+[submodule "b-apollo"]
+	path = b-apollo
+	url = https://git.charlesreid1.com/bots/b-apollo.git
