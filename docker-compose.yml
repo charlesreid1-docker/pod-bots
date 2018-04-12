@@ -1,0 +1,55 @@
+version: "3.1"
+services:
+
+  stormy_apollo:
+    build: b-apollo
+    # ---------------
+    # Comment these two lines out
+    # after the first run, when the 
+    # api keys are all set up.
+    #stdin_open: true
+    #tty: true
+    # ---------------
+    volumes:
+      - "./bot/apikeys.py:/apollo/bot/apikeys.py"
+      - "./bot/keys:/apollo/bot/keys"
+
+  stormy_ginsberg:
+    build: b-ginsberg
+    # ---------------
+    # Comment these two lines out
+    # after the first run, when the 
+    # api keys are all set up.
+    #stdin_open: true
+    #tty: true
+    # ---------------
+    volumes:
+      - "./bot/apikeys.py:/ginsberg/bot/apikeys.py"
+      - "./bot/keys:/ginsberg/bot/keys"
+
+  stormy_milton:
+    build: b-milton
+    # ---------------
+    # Comment these two lines out
+    # after the first run, when the 
+    # api keys are all set up.
+    #stdin_open: true
+    #tty: true
+    # ---------------
+    volumes:
+      - "./bot/apikeys.py:/milton/bot/apikeys.py"
+      - "./bot/keys:/milton/bot/keys"
+
+  stormy_tripos:
+    build: b-tripos
+    # ---------------
+    # Comment these two lines out
+    # after the first run, when the 
+    # api keys are all set up.
+    #stdin_open: true
+    #tty: true
+    # ---------------
+    volumes:
+      - "./bot/apikeys.py:/tripos/bot/apikeys.py"
+      - "./bot/keys:/tripos/bot/keys"
+      - "./bot/latex:/tripos/bot/latex"
