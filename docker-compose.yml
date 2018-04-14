@@ -11,8 +11,8 @@ services:
     #tty: true
     # ---------------
     volumes:
-      - "./bot/apikeys.py:/apollo/bot/apikeys.py"
-      - "./bot/keys:/apollo/bot/keys"
+      - "./b-apollo/bot/apikeys.py:/apollo/bot/apikeys.py"
+      - "./b-apollo/bot/keys:/apollo/bot/keys"
 
   stormy_ginsberg:
     build: b-ginsberg
@@ -24,8 +24,8 @@ services:
     #tty: true
     # ---------------
     volumes:
-      - "./bot/apikeys.py:/ginsberg/bot/apikeys.py"
-      - "./bot/keys:/ginsberg/bot/keys"
+      - "./b-ginsberg/bot/apikeys.py:/ginsberg/bot/apikeys.py"
+      - "./b-ginsberg/bot/keys:/ginsberg/bot/keys"
 
   stormy_milton:
     build: b-milton
@@ -37,8 +37,8 @@ services:
     #tty: true
     # ---------------
     volumes:
-      - "./bot/apikeys.py:/milton/bot/apikeys.py"
-      - "./bot/keys:/milton/bot/keys"
+      - "./b-milton/bot/apikeys.py:/milton/bot/apikeys.py"
+      - "./b-milton/bot/keys:/milton/bot/keys"
 
   stormy_tripos:
     build: b-tripos
@@ -50,6 +50,6 @@ services:
     #tty: true
     # ---------------
     volumes:
-      - "./bot/apikeys.py:/tripos/bot/apikeys.py"
-      - "./bot/keys:/tripos/bot/keys"
-      - "./bot/latex:/tripos/bot/latex"
+      - "./b-tripos/bot/apikeys.py:/tripos/bot/apikeys.py"
+      - "./b-tripos/bot/keys:/tripos/bot/keys"
+      - "./b-tripos/bot/latex:/tripos/bot/latex"
