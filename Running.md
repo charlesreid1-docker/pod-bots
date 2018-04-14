@@ -15,7 +15,7 @@ docker-compose build
 To rebuild from scratch without using any cached data:
 
 ```
-docker-compose build --no-cached
+docker-compose build --no-cache
 ```
 
 To bring the entire container pod up:
@@ -42,6 +42,10 @@ docker-compose down
 ```
 
 
+## Testing Out Individual Bots
 
-
+To test out the containers for each individual bot,
+you can just cd into that bot's directory and 
+run the same commands as above. That will build/start
+a container that runs only that one bot.
 
