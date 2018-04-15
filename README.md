@@ -19,4 +19,7 @@ See [Running.md](/Running.md) for info about running this pod.
 
 See [Volumes.md](/Volumes.d) for more info about volumes used.
 
+# Debugging
+
+See [Debugging](/Debugging.md) for info about how to debug the docker pod.
 
