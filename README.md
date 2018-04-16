@@ -8,7 +8,7 @@ The bot flocks are:
 * [Apollo Space Junk bot flock](https://twitter.com/charlesreid1/lists/space-junk-botflock)
 * [Milton bot flock](https://twitter.com/charlesreid1/lists/miltonbotflock)
 * [Ginsberg bot flock](https://twitter.com/charlesreid1/lists/ginsbergbotflock)
-* [Math Tripos bot](https://twitter.com/charlesreid1/lists/ginsbergbotflock)
+* [Math Tripos bot](https://twitter.com/math_tripos)
 
 # Running
 
