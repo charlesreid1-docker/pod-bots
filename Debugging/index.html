@@ -31,22 +31,22 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="./">
+      <link rel="shortcut icon" href="../">
       <meta name="generator" content="mkdocs-0.17.3, mkdocs-material-2.7.2">
     
     
       
-        <title>pod-bots</title>
+        <title>Debugging - pod-bots</title>
       
     
     
-      <link rel="stylesheet" href="./assets/stylesheets/application.8d40d89b.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application.8d40d89b.css">
       
-        <link rel="stylesheet" href="./assets/stylesheets/application-palette.6079476c.css">
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.6079476c.css">
       
     
     
-      <script src="./assets/javascripts/modernizr.1aa3b519.js"></script>
+      <script src="../assets/javascripts/modernizr.1aa3b519.js"></script>
     
     
       <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
@@ -57,7 +57,7 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
     
-      <link rel="stylesheet" href="./css/custom.css">
+      <link rel="stylesheet" href="../css/custom.css">
     
     
   </head>
@@ -76,7 +76,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
-      <a href="#pod-bots" tabindex="1" class="md-skip">
+      <a href="#debugging" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -85,7 +85,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="." title="pod-bots" class="md-header-nav__button md-logo">
+        <a href=".." title="pod-bots" class="md-header-nav__button md-logo">
           
             <i class="md-icon">dns</i>
           
@@ -102,7 +102,7 @@
                 pod-bots
               </span>
               <span class="md-header-nav__topic">
-                Home
+                Debugging
               </span>
             
           
@@ -170,6 +170,18 @@
       
       
 
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
   
 
 
@@ -180,22 +192,46 @@
       
     
     
-    <a href="." title="Home" class="md-nav__link md-nav__link--active">
-      Home
-    </a>
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Debugging
+      </label>
     
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="Debugging/" title="Debugging" class="md-nav__link">
+    <a href="./" title="Debugging" class="md-nav__link md-nav__link--active">
       Debugging
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#check-the-logs" title="Check the Logs" class="md-nav__link">
+    Check the Logs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fixing-bugs" title="Fixing Bugs" class="md-nav__link">
+    Fixing Bugs
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
     
@@ -205,7 +241,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Running/" title="Running" class="md-nav__link">
+    <a href="../Running/" title="Running" class="md-nav__link">
       Running
     </a>
   </li>
@@ -217,7 +253,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Volumes/" title="Volumes" class="md-nav__link">
+    <a href="../Volumes/" title="Volumes" class="md-nav__link">
       Volumes
     </a>
   </li>
@@ -240,6 +276,29 @@
     
   
   
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#check-the-logs" title="Check the Logs" class="md-nav__link">
+    Check the Logs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fixing-bugs" title="Fixing Bugs" class="md-nav__link">
+    Fixing Bugs
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -251,22 +310,15 @@
               
                 
                 
-                <h1 id="pod-bots">pod-bots</h1>
-<p>This repo contains a docker compose file for running 
-all of our bot flocks.</p>
-<p>The bot flocks are:</p>
-<ul>
-<li><a href="https://twitter.com/charlesreid1/lists/space-junk-botflock">Apollo Space Junk bot flock</a></li>
-<li><a href="https://twitter.com/charlesreid1/lists/miltonbotflock">Milton bot flock</a></li>
-<li><a href="https://twitter.com/charlesreid1/lists/ginsbergbotflock">Ginsberg bot flock</a></li>
-<li><a href="https://twitter.com/math_tripos">Math Tripos bot</a></li>
-</ul>
-<h1 id="running">Running</h1>
-<p>See <a href="Running/">Running.md</a> for info about running this pod.</p>
-<h1 id="volumes">Volumes</h1>
-<p>See <a href="./Volumes.d">Volumes.md</a> for more info about volumes used.</p>
-<h1 id="debugging">Debugging</h1>
-<p>See <a href="Debugging/">Debugging</a> for info about how to debug the docker pod.</p>
+                <h1 id="debugging">Debugging</h1>
+<p>In case things go wrong with the docker pod:</p>
+<h2 id="check-the-logs">Check the Logs</h2>
+<p>docker logs container-name</p>
+<h2 id="fixing-bugs">Fixing Bugs</h2>
+<p>Make repairs to docker containers</p>
+<p>Bump version number</p>
+<p>Build and upload to pypi, test </p>
+<p>Check dockerhub pull</p>
                 
                   
                 
@@ -287,14 +339,28 @@ all of our bot flocks.</p>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
+          <a href=".." title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Home
+              </span>
+            </div>
+          </a>
         
-          <a href="Debugging/" title="Debugging" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+        
+          <a href="../Running/" title="Running" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Debugging
+                Running
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -324,13 +390,13 @@ all of our bot flocks.</p>
       
     </div>
     
-      <script src="./assets/javascripts/application.0cf9b500.js"></script>
+      <script src="../assets/javascripts/application.0cf9b500.js"></script>
       
-      <script>app.initialize({version:"0.17.3",url:{base:"."}})</script>
+      <script>app.initialize({version:"0.17.3",url:{base:".."}})</script>
       
-        <script src="./search/require.js"></script>
+        <script src="../search/require.js"></script>
       
-        <script src="./search/search.js"></script>
+        <script src="../search/search.js"></script>
       
     
     

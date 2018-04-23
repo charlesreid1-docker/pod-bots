@@ -31,22 +31,22 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="./">
+      <link rel="shortcut icon" href="../">
       <meta name="generator" content="mkdocs-0.17.3, mkdocs-material-2.7.2">
     
     
       
-        <title>pod-bots</title>
+        <title>Running - pod-bots</title>
       
     
     
-      <link rel="stylesheet" href="./assets/stylesheets/application.8d40d89b.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application.8d40d89b.css">
       
-        <link rel="stylesheet" href="./assets/stylesheets/application-palette.6079476c.css">
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.6079476c.css">
       
     
     
-      <script src="./assets/javascripts/modernizr.1aa3b519.js"></script>
+      <script src="../assets/javascripts/modernizr.1aa3b519.js"></script>
     
     
       <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
@@ -57,7 +57,7 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
     
-      <link rel="stylesheet" href="./css/custom.css">
+      <link rel="stylesheet" href="../css/custom.css">
     
     
   </head>
@@ -76,7 +76,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
-      <a href="#pod-bots" tabindex="1" class="md-skip">
+      <a href="#the-docker-compose-file" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -85,7 +85,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="." title="pod-bots" class="md-header-nav__button md-logo">
+        <a href=".." title="pod-bots" class="md-header-nav__button md-logo">
           
             <i class="md-icon">dns</i>
           
@@ -102,7 +102,7 @@
                 pod-bots
               </span>
               <span class="md-header-nav__topic">
-                Home
+                Running
               </span>
             
           
@@ -170,20 +170,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
-    
-      
-    
-    
-    <a href="." title="Home" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
       Home
     </a>
-    
   </li>
 
     
@@ -193,7 +184,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Debugging/" title="Debugging" class="md-nav__link">
+    <a href="../Debugging/" title="Debugging" class="md-nav__link">
       Debugging
     </a>
   </li>
@@ -203,11 +194,52 @@
       
       
 
+  
 
-  <li class="md-nav__item">
-    <a href="Running/" title="Running" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Running
+      </label>
+    
+    <a href="./" title="Running" class="md-nav__link md-nav__link--active">
       Running
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-docker-compose-file" title="The Docker Compose File" class="md-nav__link">
+    The Docker Compose File
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testing-out-individual-bots" title="Testing Out Individual Bots" class="md-nav__link">
+    Testing Out Individual Bots
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
     
@@ -217,7 +249,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Volumes/" title="Volumes" class="md-nav__link">
+    <a href="../Volumes/" title="Volumes" class="md-nav__link">
       Volumes
     </a>
   </li>
@@ -237,8 +269,29 @@
 <nav class="md-nav md-nav--secondary">
   
   
-    
   
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-docker-compose-file" title="The Docker Compose File" class="md-nav__link">
+    The Docker Compose File
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testing-out-individual-bots" title="Testing Out Individual Bots" class="md-nav__link">
+    Testing Out Individual Bots
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
   
 </nav>
                   </div>
@@ -251,22 +304,42 @@
               
                 
                 
-                <h1 id="pod-bots">pod-bots</h1>
-<p>This repo contains a docker compose file for running 
-all of our bot flocks.</p>
-<p>The bot flocks are:</p>
-<ul>
-<li><a href="https://twitter.com/charlesreid1/lists/space-junk-botflock">Apollo Space Junk bot flock</a></li>
-<li><a href="https://twitter.com/charlesreid1/lists/miltonbotflock">Milton bot flock</a></li>
-<li><a href="https://twitter.com/charlesreid1/lists/ginsbergbotflock">Ginsberg bot flock</a></li>
-<li><a href="https://twitter.com/math_tripos">Math Tripos bot</a></li>
-</ul>
-<h1 id="running">Running</h1>
-<p>See <a href="Running/">Running.md</a> for info about running this pod.</p>
-<h1 id="volumes">Volumes</h1>
-<p>See <a href="./Volumes.d">Volumes.md</a> for more info about volumes used.</p>
-<h1 id="debugging">Debugging</h1>
-<p>See <a href="Debugging/">Debugging</a> for info about how to debug the docker pod.</p>
+                  <h1>Running</h1>
+                
+                <h2 id="the-docker-compose-file">The Docker Compose File</h2>
+<p>The <code>docker-compose.yml</code> file defines 
+how we run all of our bots.</p>
+<p>These are a compilation of docker-compose 
+files found in individual bot repos.</p>
+<p>To build the containers in the pod:</p>
+<pre><code>docker-compose build
+</code></pre>
+
+<p>To rebuild from scratch without using any cached data:</p>
+<pre><code>docker-compose build --no-cache
+</code></pre>
+
+<p>To bring the entire container pod up:</p>
+<pre><code>docker-compose up          # interactive
+docker-compose up -d       # detached
+docker-compose up --build  # build before running
+</code></pre>
+
+<p>To stop the docker bot pod, use the stop
+or down commands.</p>
+<p>Stop the container but keep the volumes/networks:;</p>
+<pre><code>docker-compose stop
+</code></pre>
+
+<p>stop the container and remove infrastructure:</p>
+<pre><code>docker-compose down
+</code></pre>
+
+<h2 id="testing-out-individual-bots">Testing Out Individual Bots</h2>
+<p>To test out the containers for each individual bot,
+you can just cd into that bot's directory and 
+run the same commands as above. That will build/start
+a container that runs only that one bot.</p>
                 
                   
                 
@@ -287,14 +360,28 @@ all of our bot flocks.</p>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
+          <a href="../Debugging/" title="Debugging" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Debugging
+              </span>
+            </div>
+          </a>
         
-          <a href="Debugging/" title="Debugging" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+        
+          <a href="../Volumes/" title="Volumes" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Debugging
+                Volumes
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -324,13 +411,13 @@ all of our bot flocks.</p>
       
     </div>
     
-      <script src="./assets/javascripts/application.0cf9b500.js"></script>
+      <script src="../assets/javascripts/application.0cf9b500.js"></script>
       
-      <script>app.initialize({version:"0.17.3",url:{base:"."}})</script>
+      <script>app.initialize({version:"0.17.3",url:{base:".."}})</script>
       
-        <script src="./search/require.js"></script>
+        <script src="../search/require.js"></script>
       
-        <script src="./search/search.js"></script>
+        <script src="../search/search.js"></script>
       
     
     
