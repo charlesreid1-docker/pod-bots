@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "pod-bots\n\n\nThis repo contains a docker compose file for running \nall of our bot flocks.\n\n\nThe bot flocks are:\n\n\n\n\nApollo Space Junk bot flock\n\n\nMilton bot flock\n\n\nGinsberg bot flock\n\n\nMath Tripos bot\n\n\n\n\nRunning\n\n\nSee \nRunning.md\n for info about running this pod.\n\n\nVolumes\n\n\nSee \nVolumes.md\n for more info about volumes used.\n\n\nDebugging\n\n\nSee \nDebugging\n for info about how to debug the docker pod.",
+            "text": "pod-bots\n\n\nThis repo contains a docker compose file for running \nall of our bot flocks.\n\n\nThe bot flocks are:\n\n\n\n\nApollo Space Junk bot flock\n\n\nMilton bot flock\n\n\nGinsberg bot flock\n\n\nMath Tripos bot\n\n\n\n\nRunning\n\n\nSee \nRunning\n for info about running this pod.\n\n\nVolumes\n\n\nSee \nVolumes\n for more info about volumes used.\n\n\nDebugging\n\n\nSee \nDebugging\n for info about how to debug the docker pod.",
             "title": "Home"
         },
         {
@@ -12,38 +12,18 @@
         },
         {
             "location": "/#running",
-            "text": "See  Running.md  for info about running this pod.",
+            "text": "See  Running  for info about running this pod.",
             "title": "Running"
         },
         {
             "location": "/#volumes",
-            "text": "See  Volumes.md  for more info about volumes used.",
+            "text": "See  Volumes  for more info about volumes used.",
             "title": "Volumes"
         },
         {
             "location": "/#debugging",
             "text": "See  Debugging  for info about how to debug the docker pod.",
             "title": "Debugging"
-        },
-        {
-            "location": "/Debugging/",
-            "text": "Debugging\n\n\nIn case things go wrong with the docker pod:\n\n\nCheck the Logs\n\n\ndocker logs container-name\n\n\nFixing Bugs\n\n\nMake repairs to docker containers\n\n\nBump version number\n\n\nBuild and upload to pypi, test \n\n\nCheck dockerhub pull",
-            "title": "Debugging"
-        },
-        {
-            "location": "/Debugging/#debugging",
-            "text": "In case things go wrong with the docker pod:",
-            "title": "Debugging"
-        },
-        {
-            "location": "/Debugging/#check-the-logs",
-            "text": "docker logs container-name",
-            "title": "Check the Logs"
-        },
-        {
-            "location": "/Debugging/#fixing-bugs",
-            "text": "Make repairs to docker containers  Bump version number  Build and upload to pypi, test   Check dockerhub pull",
-            "title": "Fixing Bugs"
         },
         {
             "location": "/Running/",
@@ -74,6 +54,26 @@
             "location": "/Volumes/#mounted-data-volumes",
             "text": "Each bot needs to store and access private keys\nto access its Twitter account, and data files for\ncreating tweets. Folders containing keys and data\nare bind-mounted into the containers.",
             "title": "Mounted Data Volumes"
+        },
+        {
+            "location": "/Debugging/",
+            "text": "Debugging\n\n\nIn case things go wrong with the docker pod:\n\n\nCheck the Logs\n\n\ndocker logs container-name\n\n\nFixing Bugs\n\n\nMake repairs to docker containers\n\n\nBump version number\n\n\nBuild and upload to pypi, test \n\n\nCheck dockerhub pull",
+            "title": "Debugging"
+        },
+        {
+            "location": "/Debugging/#debugging",
+            "text": "In case things go wrong with the docker pod:",
+            "title": "Debugging"
+        },
+        {
+            "location": "/Debugging/#check-the-logs",
+            "text": "docker logs container-name",
+            "title": "Check the Logs"
+        },
+        {
+            "location": "/Debugging/#fixing-bugs",
+            "text": "Make repairs to docker containers  Bump version number  Build and upload to pypi, test   Check dockerhub pull",
+            "title": "Fixing Bugs"
         }
     ]
 }

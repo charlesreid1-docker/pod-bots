@@ -11,14 +11,6 @@
 
     
     <url>
-     <loc>/Debugging/</loc>
-     <lastmod>2018-04-23</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
      <loc>/Running/</loc>
      <lastmod>2018-04-23</lastmod>
      <changefreq>daily</changefreq>
@@ -28,6 +20,14 @@
     
     <url>
      <loc>/Volumes/</loc>
+     <lastmod>2018-04-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/Debugging/</loc>
      <lastmod>2018-04-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
