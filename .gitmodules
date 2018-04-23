@@ -13,3 +13,6 @@
 [submodule "b-apollo"]
 	path = b-apollo
 	url = https://git.charlesreid1.com/bots/b-apollo.git
+[submodule "mkdocs-material"]
+	path = mkdocs-material
+	url = https://git.charlesreid1.com/charlesreid1/mkdocs-material
