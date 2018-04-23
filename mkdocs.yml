@@ -7,8 +7,8 @@ theme:
   name: null
   custom_dir: 'mkdocs-material/material'
   palette:
-    primary: 'light green'
-    accent: 'light green'
+    primary: 'blue'
+    accent: 'blue'
   logo:
     icon: 'dns'
   font:
