@@ -1,4 +1,11 @@
 site_name: pod-bots
+site_url: https://pages.charlesreid1.com/d-pod-bots
+repo_name: d-pod-bots
+repo_url: https://git.charlesreid1.com/docker/d-pod-bots
+edit_uri: ""
+
+copyright: 'Copyright &copy; 2018 <a href="https://charlesreid1.com">Charles Reid</a>'
+
 docs_dir: docs
 site_dir: site
 extra_css:
@@ -14,10 +21,16 @@ theme:
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
-markdown_extensions:
-  - admonition
 pages:
   - 'Home':         'index.md'
   - 'Running':      'Running.md'
   - 'Volumes':      'Volumes.md'
   - 'Debugging':    'Debugging.md'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
