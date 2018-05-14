@@ -2,13 +2,16 @@
 
 GREP="`which grep`"
 
-for dir in `/bin/ls -1 | $GREP "d-"`; do
+for dir in `find . -type d -maxdepth 1 | $GREP -v "docs" | $GREP -v ".git"`; do
+    echo "--------------------"
+    echo $dir
+    (
     cd $dir
     git checkout master
     git pull origin master
-    cd ..
+    )
 done
 
-git commit -a -m 'Updating submodules to latest'
-git push origin master
+#git commit -a -m 'Updating submodules to latest'
+#git push origin master
 
