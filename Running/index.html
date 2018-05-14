@@ -11,6 +11,8 @@
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
       
+        <link rel="canonical" href="https://pages.charlesreid1.com/pod-bots/Running/">
+      
       
       
         <meta name="lang:clipboard.copy" content="Copy to clipboard">
@@ -85,7 +87,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href=".." title="pod-bots" class="md-header-nav__button md-logo">
+        <a href="https://pages.charlesreid1.com/pod-bots" title="pod-bots" class="md-header-nav__button md-logo">
           
             <i class="md-icon">dns</i>
           
@@ -139,6 +141,24 @@
         
       </div>
       
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+
+  <a href="https://git.charlesreid1.com/docker/pod-bots" title="Go to repository" class="md-source" data-md-source="">
+    
+    <div class="md-source__repository">
+      pod-bots
+    </div>
+  </a>
+
+          </div>
+        </div>
+      
     </div>
   </nav>
 </header>
@@ -163,6 +183,22 @@
     </span>
     pod-bots
   </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://git.charlesreid1.com/docker/pod-bots" title="Go to repository" class="md-source" data-md-source="">
+    
+    <div class="md-source__repository">
+      pod-bots
+    </div>
+  </a>
+
+    </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
     
@@ -306,36 +342,41 @@
                 
                   <h1>Running</h1>
                 
-                <h2 id="the-docker-compose-file">The Docker Compose File</h2>
+                <h2 id="the-docker-compose-file">The Docker Compose File<a class="headerlink" href="#the-docker-compose-file" title="Permanent link">&para;</a></h2>
 <p>The <code>docker-compose.yml</code> file defines 
 how we run all of our bots.</p>
 <p>These are a compilation of docker-compose 
 files found in individual bot repos.</p>
 <p>To build the containers in the pod:</p>
-<pre><code>docker-compose build
-</code></pre>
+<div class="codehilite"><pre><span></span>docker-compose build
+</pre></div>
+
 
 <p>To rebuild from scratch without using any cached data:</p>
-<pre><code>docker-compose build --no-cache
-</code></pre>
+<div class="codehilite"><pre><span></span>docker-compose build --no-cache
+</pre></div>
+
 
 <p>To bring the entire container pod up:</p>
-<pre><code>docker-compose up          # interactive
+<div class="codehilite"><pre><span></span>docker-compose up          # interactive
 docker-compose up -d       # detached
 docker-compose up --build  # build before running
-</code></pre>
+</pre></div>
+
 
 <p>To stop the docker bot pod, use the stop
 or down commands.</p>
 <p>Stop the container but keep the volumes/networks:;</p>
-<pre><code>docker-compose stop
-</code></pre>
+<div class="codehilite"><pre><span></span>docker-compose stop
+</pre></div>
+
 
 <p>stop the container and remove infrastructure:</p>
-<pre><code>docker-compose down
-</code></pre>
+<div class="codehilite"><pre><span></span>docker-compose down
+</pre></div>
 
-<h2 id="testing-out-individual-bots">Testing Out Individual Bots</h2>
+
+<h2 id="testing-out-individual-bots">Testing Out Individual Bots<a class="headerlink" href="#testing-out-individual-bots" title="Permanent link">&para;</a></h2>
 <p>To test out the containers for each individual bot,
 you can just cd into that bot's directory and 
 run the same commands as above. That will build/start
@@ -395,6 +436,10 @@ a container that runs only that one bot.</p>
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2018 <a href="https://charlesreid1.com">Charles Reid</a>, released under the <a href="https://opensource.org/licenses/MIT">MIT license</a>
+          </div>
         
         powered by
         <a href="http://www.mkdocs.org">MkDocs</a>
