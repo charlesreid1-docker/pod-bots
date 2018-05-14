@@ -1,10 +1,10 @@
 site_name: pod-bots
-site_url: https://pages.charlesreid1.com/d-pod-bots
-repo_name: d-pod-bots
-repo_url: https://git.charlesreid1.com/docker/d-pod-bots
+site_url: https://pages.charlesreid1.com/pod-bots
+repo_name: pod-bots
+repo_url: https://git.charlesreid1.com/docker/pod-bots
 edit_uri: ""
 
-copyright: 'Copyright &copy; 2018 <a href="https://charlesreid1.com">Charles Reid</a>'
+copyright: 'Copyright &copy; 2018 <a href="https://charlesreid1.com">Charles Reid</a>, released under the <a href="https://opensource.org/licenses/MIT">MIT license</a>'
 
 docs_dir: docs
 site_dir: site
