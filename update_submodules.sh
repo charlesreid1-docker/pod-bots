@@ -12,6 +12,6 @@ for dir in `find . -type d -maxdepth 1 | $GREP -v "docs" | $GREP -v ".git"`; do
     )
 done
 
-#git commit -a -m 'Updating submodules to latest'
-#git push origin master
+git commit -a -m 'Updating submodules to latest'
+git push origin master
 
