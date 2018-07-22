@@ -16,7 +16,7 @@ See [Running](/Running.md) for info about running this pod.
 
 # Volumes
 
-See [Volumes](/Volumes.d) for more info about volumes used.
+See [Volumes](/Volumes.md) for more info about volumes used.
 
 # Debugging
 
