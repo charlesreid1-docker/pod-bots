@@ -8,7 +8,7 @@ for dir in `find . -type d -maxdepth 1 | $GREP -v "docs" | $GREP -v ".git"`; do
     (
     cd $dir
     git checkout master
-    git pull cmr master
+    git pull origin master
     )
 done
 
