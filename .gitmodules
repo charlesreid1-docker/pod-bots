@@ -1,5 +1,5 @@
 [submodule "b-rainbow-mind-machine"]
-	path = b-rainbow-mind-machine
+	path = rmm
 	url = https://git.charlesreid1.com/bots/rainbow-mind-machine.git
 [submodule "b-tripos"]
 	path = b-tripos
