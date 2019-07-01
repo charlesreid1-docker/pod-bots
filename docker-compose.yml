@@ -11,8 +11,7 @@ services:
     #tty: true
     # ---------------
     volumes:
-      - "./b-apollo/bot/apikeys.py:/apollo/bot/apikeys.py"
-      - "./b-apollo/bot/keys:/apollo/bot/keys"
+      - "./b-apollo/bot:/apollo/bot"
     logging:
       driver: "json-file"
 
@@ -26,8 +25,7 @@ services:
     #tty: true
     # ---------------
     volumes:
-      - "./b-ginsberg/bot/apikeys.py:/ginsberg/bot/apikeys.py"
-      - "./b-ginsberg/bot/keys:/ginsberg/bot/keys"
+      - "./b-ginsberg/bot:/ginsberg/bot"
     logging:
       driver: "json-file"
 
@@ -41,22 +39,19 @@ services:
     #tty: true
     # ---------------
     volumes:
-      - "./b-milton/bot/apikeys.py:/milton/bot/apikeys.py"
-      - "./b-milton/bot/keys:/milton/bot/keys"
+      - "./b-milton/bot:/milton/bot"
     logging:
       driver: "json-file"
 
-    #stormy_tripos:
-    #stbuild: b-tripos
-    #st# ---------------
-    #st# Comment these two lines out
-    #st# after the first run, when the 
-    #st# api keys are all set up.
-    #st#stdin_open: true
-    #st#tty: true
-    #st# ---------------
-    #stvolumes:
-    #st  - "./b-tripos/bot/apikeys.py:/tripos/bot/apikeys.py"
-    #st  - "./b-tripos/bot/keys:/tripos/bot/keys"
-    #st  - "./b-tripos/bot/latex:/tripos/bot/latex"
+    ###stormy_tripos:
+    ###build: b-tripos
+    #### ---------------
+    #### Comment these two lines out
+    #### after the first run, when the 
+    #### api keys are all set up.
+    ####stdin_open: true
+    ####tty: true
+    #### ---------------
+    ###volumes:
+    ###  - "./b-tripos/bot:/tripos/bot"
 
