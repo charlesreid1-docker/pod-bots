@@ -12,13 +12,13 @@ The bot flocks are:
 
 # Running
 
-See [Running](/Running.md) for info about running this pod.
+See [Running](Running.md) for info about running this pod.
 
 # Volumes
 
-See [Volumes](/Volumes.md) for more info about volumes used.
+See [Volumes](Volumes.md) for more info about volumes used.
 
 # Debugging
 
-See [Debugging](/Debugging.md) for info about how to debug the docker pod.
+See [Debugging](Debugging.md) for info about how to debug the docker pod.
 
